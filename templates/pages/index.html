@@ -69,6 +69,9 @@
     </div>
   </section>
 
+  <!-- Alerts -->
+  {% include 'partials/_alerts.html' %}
+
   <!-- Listings -->
   <section id="listings" class="py-5">
     <div class="container">
@@ -89,8 +92,8 @@
                     <div class="listing-heading text-center">
                       <h4 class="text-primary">{{ listing.title }}</h4>
                       <p>
-                        <i class="fas fa-map-marker text-secondary"></i> {{ listings.city }}, 
-                        {{ listing.state }}, {{ listing.zipcode }}</p>
+                        <i class="fas fa-map-marker text-secondary"></i> {{ listings.city }}, {{ 
+                          listing.state }}, {{ listing.zipcode }}</p>
                     </div>
                     <hr>
                     <div class="row py-2 text-secondary">
